@@ -44,6 +44,6 @@ Route::get('/multiplicacion/{numero}', [Operadores::class, 'multiplicacion']);
 
 Route::get('/division/{numero}', [Operadores::class, 'division']);
 
-Route::get('/index/{nombre}', [EjemploVistas::class, 'index']);
+Route::get('/index/{nomre}', [EjemploVistas::class, 'index']);
 
 Route::get('/suma', [EjemploVistas::class, 'suma']);
